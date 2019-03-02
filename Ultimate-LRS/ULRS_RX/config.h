@@ -194,9 +194,12 @@ unsigned char loop_counter = 0;
 #define SDI_pin 8
 #define SCLK_pin 7
 
-#define RSSI_out_pin 5
+// #define RSSI_out_pin 5 // For HK 'old' 1W Reciever
+#define RSSI_out_pin 3 //For HK Mini 1W Receiver
 
-#define PPM_out 3
+// #define PPM_out 3 // For HK 'old' 1W Reciever
+#define PPM_out 10 //For HK Mini 1W Receiver
+
 
 #define IRQ_pin 2
 #define nSel_pin 4
